@@ -59,12 +59,13 @@ header {
 
 
 .scroll-to-top{
+  visibility: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
   right:20px;
-  bottom:80px;
+  bottom: 25px;
   padding: 10px;
   border-radius: 50%;
   border: none;
@@ -80,4 +81,8 @@ header {
 
 .scroll-to-top:hover span{
   color: black;
+}
+
+.weather-forecast-box > *{
+  flex: 1;
 }
